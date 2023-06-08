@@ -16,3 +16,10 @@ $(document).ready(function () {
 
   $scene.on("");
 });
+const containers = document.querySelectorAll('.slider-container');
+
+containers.forEach(container => {
+  container.querySelector('.slider').addEventListener('input', (e) => {
+    container.style.setProperty('--position', `${e.target.value}%`);
+  })
+})

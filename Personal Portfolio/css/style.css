@@ -15,6 +15,13 @@ body {
   background: #1d1f20;
   position: relative;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
 .hero {
   margin: 0 auto;
   height: 100vh;
@@ -126,11 +133,9 @@ body {
 
 .special + .magic {
   transition: scale 0.3s ease-in-out;
-  transform: scale(1);
-}
-.special:hover + .magic {
   transform: scale(3);
 }
+
 .scene:hover .magic {
   box-shadow: 0 0px 0px 300rem #1d1f20;
   background: radial-gradient(
@@ -363,7 +368,7 @@ a span {
 }
 .graphic-design {
   background-color: #1d1f20;
-  padding: 0rem 8rem 0rem 8rem;
+  padding: 0rem 12rem 0rem 12rem;
   position: relative;
 }
 .work-header {
@@ -406,4 +411,94 @@ a span {
 .videography {
   background-color: #1d1f20;
   position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 100%;
+  padding: 0rem 25rem 0 25rem;
+}
+.slider-container {
+  display: grid;
+  place-content: center;
+  position: relative;
+
+  border-radius: 1rem;
+  --position: 50%;
+
+}
+.image-containuer {
+  overflow: hidden;
+  max-width: 400px;
+  max-height: 80vh;
+  position: relative;
+  
+  background-color: #000;
+}
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  object-position: left;
+}
+.image-before {
+  position: absolute;
+  inset: 0;
+  width: var(--position);
+}
+.slider {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+
+}
+.slider-line {
+  position: absolute;
+  inset: 0;
+  width: .4rem;
+  background-color: #1d1f20;
+  z-index: 10;
+  left: var(--position);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+.slider-button {
+  position: absolute;
+  padding: .5rem;
+  background-color: hsl(0, 100%, 66%);
+  color: #1d1f20;
+  border-radius: 100vw;
+  display: grid;
+  place-items: center;
+  top: 50%;
+  left: var(--position);
+  pointer-events: none;
+  z-index: 11;
+  transform: translate(-50%,-50%);
+  box-shadow: 1px 1px 1px hsla(200, 5%, 12%, 0.5);
+}
+
+.slider:focus-visible ~ .slider-button {
+  outline: 5px solid #b23838;
+  outline-offset: 3px;
+}
+.edit-header {
+  color: #b23838;
+  font-size: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+.edit-name {
+  color: #fff;
+  text-shadow: 1px 1px 2px #b23838, 0 0 1em #1d1f20, 0 0 0.2em #1d1f20;
+  position: absolute;
+  inset: 0;
+  transform: translate(5%, 80%);
+  z-index: 12;
+  font-size: 1.6rem;
+  pointer-events: none;
 }

@@ -7,7 +7,7 @@
 
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/cool-hover.css" />
+    <link rel="stylesheet" href="css/image-slider.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,6 +17,7 @@
       rel="stylesheet"
     />
     <script defer src="js/script.js"></script>
+    <script defer src="js/image-slider.js"></script>
     <script defer src="js/jiggly-script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
@@ -119,9 +120,45 @@
     </section>
 
     <section class="videography">
-      <div class="work-header-box">
-        <h2 class="work-header">Color Grading</h2>
-      </div>
+  
+        <h2 class="edit-header">Video Editing</h2>
+
+        <div class="slider-container">
+          
+          <div class="image-container">
+            <div class="edit-name-box">
+            <h3 class="edit-name">PAPERCUT (2023), Horror Short-Film, Role: Editor</h3>
+          </div>
+            <img class="slider-image image-before"
+            src="premiere-snapshots\premiere-snapshots\before_after\papercut-before.png">
+            <img class="slider-image image-after"
+            src="premiere-snapshots\premiere-snapshots\before_after\papercut-after.png">
+            <div class="slider-line"></div>
+          </div>
+          <input type="range" min="1.25" max="98.75" value="50" class="slider">
+          <div class="slider-button" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M136,40V216a8,8,0,0,1-16,0V40a8,8,0,0,1,16,0ZM96,120H35.31l18.35-18.34A8,8,0,0,0,42.34,90.34l-32,32a8,8,0,0,0,0,11.32l32,32a8,8,0,0,0,11.32-11.32L35.31,136H96a8,8,0,0,0,0-16Zm149.66,2.34-32-32a8,8,0,0,0-11.32,11.32L220.69,120H160a8,8,0,0,0,0,16h60.69l-18.35,18.34a8,8,0,0,0,11.32,11.32l32-32A8,8,0,0,0,245.66,122.34Z"></path></svg>
+          </div>
+          
+        </div> 
+       
+        <div class="slider-container">
+          <div class="image-container">
+            <div class="edit-name-box">
+            <h3 class="edit-name">BUG (2023), Experimental 72-Hour Short-Film, Role: Director, Editor</h3></div>
+            <img class="slider-image image-before"
+            src="premiere-snapshots\premiere-snapshots\before_after\bug-before1.png">
+            <img class="slider-image image-after"
+            src="premiere-snapshots\premiere-snapshots\before_after\bug-after1.png">
+            <div class="slider-line"></div>
+          </div>
+          <input type="range" min="1.25" max="98.75" value="60" class="slider">
+          <div class="slider-button" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M136,40V216a8,8,0,0,1-16,0V40a8,8,0,0,1,16,0ZM96,120H35.31l18.35-18.34A8,8,0,0,0,42.34,90.34l-32,32a8,8,0,0,0,0,11.32l32,32a8,8,0,0,0,11.32-11.32L35.31,136H96a8,8,0,0,0,0-16Zm149.66,2.34-32-32a8,8,0,0,0-11.32,11.32L220.69,120H160a8,8,0,0,0,0,16h60.69l-18.35,18.34a8,8,0,0,0,11.32,11.32l32-32A8,8,0,0,0,245.66,122.34Z"></path></svg>
+          </div>
+        </div> 
+        
+        
     </section>
   </body>
 </html>
