@@ -309,12 +309,14 @@ a span {
 }
 
 .contact-btn-box {
-	grid-column: 1/-1;
 	display: flex;
-	grid-row: 3;
-	align-items: start;
-	justify-content: start;
-	justify-self: center;
+	position: absolute;
+	transform: translateY(-325%);
+	align-items: center;
+	justify-content: space-around;
+	gap: 20rem;
+
+	z-index: 1000;
 }
 
 .btn--about a {
