@@ -24,6 +24,12 @@
   section {
     padding: 0rem 5rem 0rem 5rem;
   }
+  .thumbnail-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skills-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media screen and (max-width: 600px) {
   html {
@@ -44,6 +50,14 @@
 @media screen and (max-width: 450px) {
   html {
     font-size: 20%;
+  }
+  .gallery-cell {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 250px) {
+  html {
+    font-size: 15%;
   }
   .gallery-cell {
     height: 150px;

@@ -289,14 +289,13 @@ a span {
 }
 
 .about {
-  height: 100%;
-  display: flex;
+  display: grid;
   align-items: center;
-  justify-content: center;
-  grid-template-columns: 1fr;
+  justify-items: center;
+  grid-template-columns: 2fr 1fr;
   background-color: #b23838;
+  max-width: 100%;
 
-  width: 100%;
   position: relative;
 }
 
@@ -305,12 +304,11 @@ a span {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  min-width: 10rem;
+  max-width: 100%;
 }
 
 .about-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .contact-btn-box {
@@ -350,7 +348,7 @@ a span {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  grid-row: 2;
+  grid-row: 3;
   grid-column: 1/-1;
 }
 .btn {
@@ -365,7 +363,7 @@ a span {
   color: #eee;
   box-shadow: 0rem 0rem 1rem 0rem hsla(200, 5%, 12%, 0.05);
   border-radius: 50px;
-  font-size: 2rem;
+
   transition: all 200ms ease-in;
 }
 .btn:hover {
@@ -687,7 +685,9 @@ a {
 .skills-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-around;
+  grid-template-areas: "a b c" "d e ";
+  justify-content: center;
+
   align-items: center;
   margin: 1rem;
 }
