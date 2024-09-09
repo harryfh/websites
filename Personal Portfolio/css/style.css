@@ -397,7 +397,6 @@ a span {
 
 .graphic-design {
   background-color: #1d1f20;
-
   position: relative;
 }
 .work-header {
@@ -419,7 +418,6 @@ a span {
 
 .thumbnail-gallery img {
   width: 100%;
-  height: max-content;
   border-radius: 16px;
   font-size: 1.6rem;
   padding: 1rem;
