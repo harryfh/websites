@@ -421,6 +421,7 @@ a span {
   border-radius: 16px;
   font-size: 1.6rem;
   padding: 1rem;
+  aspect-ratio: 16/9;
 }
 
 .poster-gallery {
