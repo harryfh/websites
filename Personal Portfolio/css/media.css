@@ -1,0 +1,51 @@
+@media screen and (max-width: 1242px) {
+  html {
+    font-size: 50%;
+  }
+  .gallery-cell {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 42%;
+  }
+  .gallery-cell {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 35%;
+  }
+  .gallery-cell {
+    height: 300px;
+  }
+  section {
+    padding: 0rem 5rem 0rem 5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 30%;
+  }
+  .gallery-cell {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 25%;
+  }
+  .gallery-cell {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 20%;
+  }
+  .gallery-cell {
+    height: 150px;
+  }
+}
