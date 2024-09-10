@@ -22,6 +22,7 @@ img {
 }
 section {
   padding: 0rem 20rem 0rem 20rem;
+  margin: 0 auto;
 }
 .skills-header {
   color: #b23838;
@@ -34,7 +35,6 @@ section {
 }
 
 .hero {
-  margin: 0 auto;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -724,6 +724,7 @@ a {
 .coding {
   background-color: #222;
   position: relative;
+  padding-block: 20rem;
 }
 .coding-header {
   color: #b23838;

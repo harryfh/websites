@@ -1,4 +1,4 @@
-@media screen and (max-width: 1242px) {
+@media (max-width: 1242px) {
   html {
     font-size: 50%;
   }
@@ -6,7 +6,7 @@
     height: 400px;
   }
 }
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   html {
     font-size: 42%;
   }
@@ -14,7 +14,7 @@
     height: 350px;
   }
 }
-@media screen and (max-width: 750px) {
+@media (max-width: 750px) {
   html {
     font-size: 35%;
   }
@@ -31,7 +31,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   html {
     font-size: 30%;
   }
@@ -39,7 +39,7 @@
     height: 250px;
   }
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   html {
     font-size: 25%;
   }
@@ -47,7 +47,7 @@
     height: 200px;
   }
 }
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
   html {
     font-size: 20%;
   }
@@ -55,7 +55,7 @@
     height: 150px;
   }
 }
-@media screen and (max-width: 250px) {
+@media (max-width: 250px) {
   html {
     font-size: 15%;
   }
