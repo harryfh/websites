@@ -546,7 +546,7 @@ a span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20rem;
+  padding-bottom: 20rem;
 }
 .skills-list {
   display: grid;
@@ -714,9 +714,9 @@ a span {
 
 .gallery-cell {
   width: 66%;
-  height: 500px;
+  height: 750px;
   margin-right: 2rem;
-  background: #98ff75;
+  background: #b23838;
   border-radius: 8px;
 }
 
@@ -734,7 +734,7 @@ a span {
   padding-block: 20rem;
 }
 .coding-header {
-  color: #98ff75;
+  color: #b23838;
   font-size: 6rem;
   display: flex;
   align-items: center;
@@ -744,7 +744,7 @@ a span {
 }
 
 .gallery-text {
-  color: #333;
+  color: #eee;
   height: 100%;
   width: 100%;
   display: grid;
@@ -779,8 +779,6 @@ a span {
   width: 100%;
   height: auto;
   padding: 1rem;
-
-  max-height: 20rem;
   height: auto;
   border-radius: 20px;
   margin-top: 2rem;
