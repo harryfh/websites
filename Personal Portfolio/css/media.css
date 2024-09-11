@@ -2,25 +2,36 @@
   html {
     font-size: 50%;
   }
-  .gallery-cell {
-    height: 400px;
+  .gallery-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10rem;
+    margin-top: 3rem;
+  }
+  .coding-gallery-header {
+    font-size: 5rem;
+  }
+  .coding-gallery-body {
+    font-size: 2.4rem;
+  }
+  .coding-image {
+    width: 75%;
+    margin: 0 auto;
   }
 }
 @media (max-width: 1000px) {
   html {
     font-size: 42%;
   }
-  .gallery-cell {
-    height: 350px;
-  }
 }
 @media (max-width: 850px) {
   html {
     font-size: 35%;
   }
-  .gallery-cell {
-    height: 300px;
-  }
+
   section {
     padding: 0rem 5rem 0rem 5rem;
   }
@@ -38,40 +49,25 @@
   html {
     font-size: 30%;
   }
-  .gallery-cell {
-    height: 250px;
-  }
 }
 @media (max-width: 500px) {
   html {
     font-size: 25%;
-  }
-  .gallery-cell {
-    height: 250px;
   }
 }
 @media (max-width: 450px) {
   html {
     font-size: 20%;
   }
-  .gallery-cell {
-    height: 150px;
-  }
 }
 @media (max-width: 250px) {
   html {
     font-size: 15%;
   }
-  .gallery-cell {
-    height: 150px;
-  }
 }
 @media (max-width: 200px) {
   html {
     font-size: 12%;
-  }
-  .gallery-cell {
-    height: 120px;
   }
 }
 
@@ -79,23 +75,14 @@
   html {
     font-size: 10%;
   }
-  .gallery-cell {
-    height: 100px;
-  }
 }
 @media (max-width: 130px) {
   html {
     font-size: 8%;
   }
-  .gallery-cell {
-    height: 100px;
-  }
 }
 @media (max-width: 110px) {
   html {
     font-size: 6%;
-  }
-  .gallery-cell {
-    height: 100px;
   }
 }
