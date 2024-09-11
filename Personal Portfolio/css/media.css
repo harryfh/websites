@@ -14,7 +14,7 @@
     height: 350px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   html {
     font-size: 35%;
   }
@@ -47,7 +47,7 @@
     font-size: 25%;
   }
   .gallery-cell {
-    height: 200px;
+    height: 250px;
   }
 }
 @media (max-width: 450px) {
@@ -78,6 +78,22 @@
 @media (max-width: 150px) {
   html {
     font-size: 10%;
+  }
+  .gallery-cell {
+    height: 100px;
+  }
+}
+@media (max-width: 130px) {
+  html {
+    font-size: 8%;
+  }
+  .gallery-cell {
+    height: 100px;
+  }
+}
+@media (max-width: 110px) {
+  html {
+    font-size: 6%;
   }
   .gallery-cell {
     height: 100px;
