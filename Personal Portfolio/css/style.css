@@ -31,7 +31,7 @@ section {
   padding: 4rem;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10rem;
+
   margin-top: 10rem;
 }
 
@@ -542,7 +542,7 @@ a span {
   position: relative;
   cursor: default;
   display: flex;
-  gap: 3rem;
+
   flex-direction: column;
   align-items: center;
   justify-content: center;
