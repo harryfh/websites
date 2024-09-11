@@ -33,15 +33,6 @@
   .skills {
     flex-direction: column;
   }
-  .gallery-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .coding-images {
-    flex-direction: row;
-  }
 }
 @media (max-width: 600px) {
   html {
