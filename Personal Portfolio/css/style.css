@@ -297,7 +297,7 @@ a span {
   grid-template-columns: 2fr 1fr;
   background-color: #b23838;
   max-width: 100%;
-
+  gap: 3rem;
   position: relative;
 }
 
@@ -427,6 +427,7 @@ a span {
 }
 .image-container {
   overflow: hidden;
+  max-width: 400px;
 }
 
 .poster-gallery {
@@ -770,25 +771,16 @@ a span {
 }
 .coding-image {
   width: 100%;
-  height: auto;
+
   padding: 1rem;
-  height: auto;
+
   border-radius: 20px;
-  margin-top: 2rem;
+
   grid-area: main2;
-  transition: all 0.5s;
 }
 .coding-images {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-.coding-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
-}
-.coding-image:hover {
-  transition: all 0.5s;
 }

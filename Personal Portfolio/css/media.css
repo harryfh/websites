@@ -8,18 +8,22 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: 10rem;
+    padding: 5rem;
     margin-top: 3rem;
   }
   .coding-gallery-header {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .coding-gallery-body {
     font-size: 2.4rem;
   }
   .coding-image {
-    width: 75%;
     margin: 0 auto;
+    max-height: 300px;
+    width: 30rem;
+  }
+  .gallery-cell {
+    height: 80rem;
   }
 }
 @media (max-width: 1000px) {
