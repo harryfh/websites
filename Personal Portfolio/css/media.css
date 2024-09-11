@@ -30,6 +30,9 @@
   .skills-list {
     grid-template-columns: repeat(2, 1fr);
   }
+  .skills {
+    flex-direction: column;
+  }
 }
 @media (max-width: 600px) {
   html {
@@ -61,5 +64,22 @@
   }
   .gallery-cell {
     height: 150px;
+  }
+}
+@media (max-width: 200px) {
+  html {
+    font-size: 12%;
+  }
+  .gallery-cell {
+    height: 120px;
+  }
+}
+
+@media (max-width: 150px) {
+  html {
+    font-size: 10%;
+  }
+  .gallery-cell {
+    height: 100px;
   }
 }
